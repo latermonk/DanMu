@@ -12,6 +12,8 @@ apt update && apt install wget curl vim git  -y
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
+source ~/.bashrc  
+
 nvm install node 
 
 git clone https://github.com/liu946/danmuSlideServer.git
