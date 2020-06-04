@@ -23,7 +23,7 @@ node index.js
 ```
 
 
-http://localhost:3000/danmuup
+http://localhost:32767/danmuup
 
 发射弹幕， Go  go  go ！！！
 
