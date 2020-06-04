@@ -8,9 +8,10 @@ https://github.com/liu946/danmuSlideServer
 ```
 docker run -d -p 32768:22  -p 32767:3000  --name test_sshd rastasheep/ubuntu-sshd:18.04
 
-apt update && apt install wget curl vim git  -y
+apt update && apt install wget git  -y
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+# curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 source ~/.bashrc  
 
