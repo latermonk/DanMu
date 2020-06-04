@@ -36,3 +36,15 @@ docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /va
  
 ```
 
+
+
+
+
+------
+
+一个基于canvas的弹幕系统     
+https://github.com/zhaofinger/canvas-barrage
+
+https://zhaofinger.github.io/canvas-barrage/index.html   
+
+
